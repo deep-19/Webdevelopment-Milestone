@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Form </title>
+    <link rel="stylesheet" href="page.css"></head>
+    <body>
+        <div class="facts"> <h1 style="font-family: 'Times New Roman', Times, serif; text-align: center; text-underline-position: below;" >FORM FOR VISITORS</h1>
+            <form> 
+               <fieldset class="formbody"><legend>USERS PERSONAL INFORMATION</legend>
+                First Name: <input type="text" name="firstname"/><br>
+                Last Name: <input type="text" name="Lastname"/><br>
+                <label for="gender">Gender: </label><br>
+                   <input type="radio" id="gender" name="gender" Value="Male"/>Male<br>
+                   <input type="radio" id="gender" name="gender" Value="Female"/>Female<br><br>
+                <label for="email">Email</label>
+                   <input type="email" id="email" name="email"/><br>
+            </fieldset> 
+            <fieldset class="formbody"><legend>SOME INTERESTING QUESTIONNAIRE</legend>    
+               <ul style="list-style-type: circle;">
+                <li>Which quality of Dr.A.P.J Abdul Kalam's you liked the most?<br>
+                <input type="text" name="quality"/><br></li>
+                <li>If you would have got a chance to meet him what would be your questions to him?<br>
+                    <input type="text" name="questions"/><br>
+                </li>
+                <li>If you ever get the chance to keep his personal possessions. Which one will you choose?<br>
+                    <input type="checkbox" id="veena" name="veena" value="veena"/><label for="veena">Veena</label><br>
+                    <input type="checkbox" id="laptop" name="laptop" value="laptop"/><label for="laptop">Laptop</label><br>
+                    <input type="checkbox" id="Books" name="Books" value="Books"/><label for="Books">Books</label><br> 
+                </li>
+                <li>Your views on Dr.A.P.J. Abdul Kalam:
+                    <input type="text" id="views" name="views" value="views"/>
+                </li>
+            </fieldset></ul>
+            <br>
+            THANK YOU FOR FEEDBACK!!! <br>
+            HAVE A NICE DAY.<br><br>
+                <input type="submit" value="submit"><br><br>
+                <input type="reset"  value="reset"><br>
+            </form></div>
+    </body>
+</html>
